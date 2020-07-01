@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "lerna run --parallel start",
+    "build": "lerna run build",
+    "serve": "lerna run --parallel serve",
+    "clean": "lerna run --parallel clean",
+    "bootstrap": "lerna exec yarn install"
+  },
+  "name": "mfe-examples",
+  "devDependencies": {
+    "lerna": "^3.19.0"
+  },
+  "workspaces": [
+    "apps/*"
+  ]
+}
