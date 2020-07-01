@@ -1,9 +1,9 @@
-# Shared Routing Example
+# Shared Components & Routes
 
 This example demos two applications with their own sets of routes and deployments but a seamless experience for the user.
 
-- `dazzle` contains the "Home Page" (/) route.
-- `reviews-frontend` contains the "About Page" (/about) route.
+- `dazzle` contains the "People Page" (/) route.
+- `reviews-frontend` contains the "Create Page" (/admin/reviews/create) and "Audit Page" (/admin/reviews/audit).
 - `dazzle` also exposes `Navigation` component.
 
 # Running Demo
